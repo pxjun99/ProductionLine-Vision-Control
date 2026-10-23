@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00_Shared\ProductionLine.Shared\ProductionLine.Shared.csproj" />
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260627" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.13.0.20260627" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.24.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\models\**\*.onnx"
+          Link="Models\%(RecursiveDir)%(Filename)%(Extension)"
+          CopyToOutputDirectory="Always"
+          CopyToPublishDirectory="Always" />
+    <None Include="..\models\**\model_info.json"
+          Link="Models\%(RecursiveDir)%(Filename)%(Extension)"
+          CopyToOutputDirectory="Always"
+          CopyToPublishDirectory="Always" />
+    <None Include="..\models\background\empty_belt_reference.jpg"
+          Link="Models\background\empty_belt_reference.jpg"
+          CopyToOutputDirectory="Always"
+          CopyToPublishDirectory="Always" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

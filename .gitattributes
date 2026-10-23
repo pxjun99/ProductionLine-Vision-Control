@@ -1,0 +1,7 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.cs text eol=crlf
+*.ino text eol=lf
+*.onnx binary
+*.jpg binary

@@ -1,0 +1,150 @@
+[
+  {
+    "path": "04_Vision/ProductionLine.Vision/CombinedYoloModels.cs",
+    "sha256": "ba984376f615f611adebf31d9759aaa0a131c71ba1fce215913742f716a5cdb3"
+  },
+  {
+    "path": "04_Vision/ProductionLine.Vision/ProductionLine.Vision.csproj",
+    "sha256": "b9a9f1595c3f8a26c11bc4353ed9a00d15bad26517a80baef00debcf70f8a20b"
+  },
+  {
+    "path": "04_Vision/ProductionLine.Vision/VisionInspector.cs",
+    "sha256": "13f201e8c8992d70d937b6a99e2933eca989d956f9b3f910aefe0a2548baf9b8"
+  },
+  {
+    "path": "04_Vision/ProductionLine.Vision/YoloOnnxInspector.cs",
+    "sha256": "b2a7c304f71e5b94e48dd7038acb565af6c85bdfe55186bb2c2aecbe1e985739"
+  },
+  {
+    "path": "06_TrainingTool/ProductionLine.TrainingTool/AnnotationCanvas.cs",
+    "sha256": "874c1ab6d361f78177baff57525595e0a96cb16a76eef9778b06ca813b47828c"
+  },
+  {
+    "path": "06_TrainingTool/ProductionLine.TrainingTool/MainForm.cs",
+    "sha256": "1826bc2777a59f446ff19bb1803068fb030329d619a7a5a2001ca770a1237ac2"
+  },
+  {
+    "path": "06_TrainingTool/ProductionLine.TrainingTool/ProductionLine.TrainingTool.csproj",
+    "sha256": "572dd52f9161bf0a6f33c826fef5ab1761a1dc3c5c5d025521fe6da21085077f"
+  },
+  {
+    "path": "06_TrainingTool/ProductionLine.TrainingTool/Program.cs",
+    "sha256": "c967cea7e42c20a96b13c25f00fea18080df6058f30997ae94a67af4451ebef0"
+  },
+  {
+    "path": "06_TrainingTool/ProductionLine.TrainingTool/train_yolo.py",
+    "sha256": "a919b36bddfc016eaada08bad105756c3dd1c7e795291b6455143652e4bd891c"
+  },
+  {
+    "path": "06_TrainingTool/ProductionLine.TrainingTool/YoloProject.cs",
+    "sha256": "a978cff72a90bfd0aa0c94188e42e7ae5dea7634c2c4f197c842acf5ea36484d"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/CameraSession.cs",
+    "sha256": "c0b728655d34c5fe0d82c4b825dfd6d07df91c90967c4f6b1621b9971a8d8d9f"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/CameraInspection.cs",
+    "sha256": "28dafc303d5ef87d7b56a4061109d37ab65ba9c70e3e0c5ba1c5a9981ff85586"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/ConveyorSerialController.cs",
+    "sha256": "40f03b335eb3f34973caf6ad9e2eb8671b2c83e01069b4a7130c93bef2615983"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/ConveyorControls.cs",
+    "sha256": "62fd6a6a57251f3a051b4c7fa43b72ae371647c6ef0177a6ccc7794a78dce081"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/HardwareSerialProtocol.cs",
+    "sha256": "8e5d9c8ea5205e6aa3a5ea326a845f675c1a7e394a37aef29fe310d2997c047e"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/HardwareControls.cs",
+    "sha256": "ae5aa4293dbacd7b0201798c7a4d30a5e431dca57e5a5dd57754feab4c890e68"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/IRecognitionConveyorController.cs",
+    "sha256": "02ba8c25ffa8231585783b80d34a2b8c1c660b81105313d0f27e764f531ad0f9"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/ArduinoFirmwareTools.cs",
+    "sha256": "22ef9b4d77fc3b340c147d6456d849c480d7e6e00c4b2677aa9461539c82d4d7"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/ArduinoSetupControls.cs",
+    "sha256": "2da01af76752c8bd480613d80384c3c1fd31a283370120f0b4bdd4e6f076264a"
+  },
+  {
+    "path": "02_UserApp/ProductionLine.UserApp/ArduinoSetupForm.cs",
+    "sha256": "0bfaceec3e0a6f4867a8fb84773a5c6becb2e6208596a76107526fa9ecfe697b"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/Adafruit_NeoPixel.cpp",
+    "sha256": "750f025c1577bb7d31975588498a1e890d05f382bfb60a8327eb2a113b75c544"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/Adafruit_NeoPixel.h",
+    "sha256": "80fde5570634d21632725ecb35e8dce3541a321cd04079987a680c168c551916"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/ConveyorYoloControl.ino",
+    "sha256": "7bd078eaa3e76f2c6d360d006b8581063ef6484d63800f1c32ff06f63ead133c"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/COPYING",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/DHT.cpp",
+    "sha256": "244dcbf3a69b2f70fcef39632a3dd65f3af9869142ea93d6bb9dd99a54f7a6fd"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/DHT.h",
+    "sha256": "14959c77cc5addce51585dd014dc8b3aec089bde2469e44dfa288f026ec8fae9"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/DHT_LICENSE.txt",
+    "sha256": "8598f9a7e17727381839097b65b763e8e574b980b8157754209e9a089176c927"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/README.md",
+    "sha256": "647fc7609f03be5993d06e197061145bbd082dc8011bbe7516f5d3a9a147c944"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/Servo.cpp",
+    "sha256": "6b4477836ed3a00c3d77a5ad1e6a8636a4ee6cc905a9d93dfc60fca654860abb"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/Servo.h",
+    "sha256": "baf96f1d65390abddb1c88121198480e4d993b7c9ef87657640082aa73944d7d"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/SERVO_LICENSE.txt",
+    "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331"
+  },
+  {
+    "path": "hardware/ConveyorYoloControl/avr/ServoTimers.h",
+    "sha256": "c18bf7dfd3804d0862572b4e0ea3b4e73431916771ceb531c28e88ed36ec4461"
+  },
+  {
+    "path": "04_Vision/models/best.onnx",
+    "sha256": "9fb6d967b016862953b3f5e9521da4b55850d4f97120bcf954f6f8ea1d92038b"
+  },
+  {
+    "path": "04_Vision/models/classes.txt",
+    "sha256": "63f64fe7b1dcc12bdc017c02aae91ae20d2fc6567a8a8ecd35c84d306ddaf1da"
+  },
+  {
+    "path": "04_Vision/models/model_info.json",
+    "sha256": "42c5589220220c93e3bcedb2ef6c7e2c91fbcea91b0ba6965a461e1d629d23ea"
+  },
+  {
+    "path": "04_Vision/models/background/empty_belt_reference.jpg",
+    "sha256": "29eb588c5cfe5627f05403581bd003a5de61241018f89f457007b357ca230d81"
+  },
+  {
+    "path": "04_Vision/samples/iphone/iphone_sample.jpg",
+    "sha256": "0404e4625f67118826960d48f94d3463dbbefb567214b9a9327a8bc245af910a"
+  }
+]
