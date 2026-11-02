@@ -5,3 +5,13 @@
 *.ino text eol=lf
 *.onnx binary
 *.jpg binary
+
+# Bundled third-party Arduino libraries are not project-authored code.
+# Keep ConveyorYoloControl.ino and the C# application in language statistics.
+hardware/ConveyorYoloControl/Adafruit_NeoPixel.cpp linguist-vendored
+hardware/ConveyorYoloControl/Adafruit_NeoPixel.h linguist-vendored
+hardware/ConveyorYoloControl/DHT.cpp linguist-vendored
+hardware/ConveyorYoloControl/DHT.h linguist-vendored
+hardware/ConveyorYoloControl/Servo.cpp linguist-vendored
+hardware/ConveyorYoloControl/Servo.h linguist-vendored
+hardware/ConveyorYoloControl/avr/ServoTimers.h linguist-vendored
